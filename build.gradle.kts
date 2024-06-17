@@ -6,6 +6,7 @@ buildscript {
     dependencies {
         classpath ("org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.21")
         classpath ("org.jetbrains.kotlin:kotlin-serialization:1.5.21")
+        classpath ("com.google.dagger:hilt-android-gradle-plugin:2.50")
     }
 }
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
